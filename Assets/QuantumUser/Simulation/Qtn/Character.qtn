@@ -1,0 +1,7 @@
+component Character
+{
+    player_ref PlayerRef;
+    FP Health;
+    FP GoldCount;
+    AssetRef<SpawnerSpec> SpawnerSpec;
+}

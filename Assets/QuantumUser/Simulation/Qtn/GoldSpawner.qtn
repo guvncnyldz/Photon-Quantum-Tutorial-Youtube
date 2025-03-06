@@ -1,0 +1,8 @@
+singleton component GoldSpawner
+{
+    FP CurrentGoldCount;
+    FP MaxGoldCount;
+    asset_ref<EntityPrototype> GoldPrototype;
+}
+
+signal OnTriggerGoldWithCharacter(entity_ref gold, Character* character);

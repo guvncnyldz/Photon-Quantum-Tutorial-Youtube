@@ -1,0 +1,6 @@
+input
+{
+    button LeftClick;
+    FPVector3 Origin;
+    FPVector3 Direction;
+}

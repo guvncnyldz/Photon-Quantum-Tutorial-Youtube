@@ -1,0 +1,12 @@
+event OnPathGeneratedEvent
+{
+    Frame F;
+    player_ref PlayerRef;
+    list<FPVector3> Path;
+}
+
+event OnPathCompletedEvent
+{
+    Frame F;
+    player_ref PlayerRef;
+}

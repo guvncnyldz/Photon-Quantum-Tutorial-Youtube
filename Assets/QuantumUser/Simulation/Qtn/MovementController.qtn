@@ -1,0 +1,5 @@
+component MovementController
+{
+    Hit3D Hit3D;
+    QBoolean IsPathSucceeded;
+}
